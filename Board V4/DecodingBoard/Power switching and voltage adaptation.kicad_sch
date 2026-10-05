@@ -3747,7 +3747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RUX0012A"
+		(property "Footprint" "Footprints:TPS2121RUXR"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4440,7 +4440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN65P500X500X100-21N-D"
+		(property "Footprint" "Footprints:QFN65P500X500X100-21N-D"
 			(at 200.66 149.53 0)
 			(hide yes)
 			(show_name no)

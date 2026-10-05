@@ -7452,7 +7452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TL3305BF100QG:TL3305BF160QG"
+		(property "Footprint" "Footprints:TL3305BF160QG"
 			(at 233.68 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7631,7 +7631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P700X700X60-49N-D"
+		(property "Footprint" "Footprints:QFN50P700X700X60-49N-D"
 			(at 171.45 171.12 0)
 			(hide yes)
 			(show_name no)
@@ -8102,7 +8102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TL3305BF100QG:TL3305BF160QG"
+		(property "Footprint" "Footprints:TL3305BF160QG"
 			(at 177.8 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -8471,7 +8471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_5040500491_MOL"
+		(property "Footprint" "Footprints:CONN_5040500491_MOL"
 			(at 39.37 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8797,7 +8797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DBV0005A_N"
+		(property "Footprint" "Footprints:SOT95P280X145-5N"
 			(at 48.26 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9537,7 +9537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CX2016DB32000D0FLJCC:xtal4_CX2016DB_AVX"
+		(property "Footprint" "Footprints:CX2016DB32000D0FLJCC"
 			(at 214.63 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9747,7 +9747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_2053380000-SD_02_MOL"
+		(property "Footprint" "Footprints:CONN_2053380000-SD_02_MOL"
 			(at 55.88 182.88 0)
 			(hide yes)
 			(show_name no)
