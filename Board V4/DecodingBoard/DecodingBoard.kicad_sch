@@ -4457,6 +4457,18 @@
 		(uuid "ab5624bf-ab38-4401-8056-1784060530ea")
 	)
 	(rectangle
+		(start 15.24 124.46)
+		(end 48.26 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ac9ba82f-52bc-40bc-9ade-0a6a8f54237a")
+	)
+	(rectangle
 		(start 19.05 41.91)
 		(end 49.53 62.23)
 		(stroke
@@ -4677,7 +4689,7 @@
 		(uuid "5581ece2-839d-4b8c-9fd9-cfe21a41d73b")
 	)
 	(junction
-		(at 20.32 135.89)
+		(at 24.13 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "568ee9b5-77c9-47e4-adfc-57241e6664bc")
@@ -4854,13 +4866,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 135.89) (xy 24.13 135.89)
+			(xy 24.13 133.35) (xy 27.94 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "04f8ff47-c923-431c-a2db-74e1d37ebb17")
+	)
+	(wire
+		(pts
+			(xy 210.82 157.48) (xy 223.52 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e90bcf-584c-4b4a-8636-e1faa0d5d734")
 	)
 	(wire
 		(pts
@@ -5204,7 +5226,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 142.24) (xy 24.13 142.24)
+			(xy 24.13 139.7) (xy 27.94 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5554,13 +5576,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 135.89) (xy 20.32 142.24)
+			(xy 24.13 133.35) (xy 24.13 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e44fb6c-ebb6-4cdd-854a-cca6cb7efb4c")
+	)
+	(wire
+		(pts
+			(xy 208.28 153.67) (xy 223.52 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718b5d9f-ffc9-4f07-a230-e949f50ae382")
 	)
 	(wire
 		(pts
@@ -5674,7 +5706,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 162.56) (xy 212.09 157.48)
+			(xy 210.82 162.56) (xy 210.82 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5691,16 +5723,6 @@
 			(type default)
 		)
 		(uuid "8dab4427-2623-4fb4-a276-7e19ac988969")
-	)
-	(wire
-		(pts
-			(xy 208.28 153.67) (xy 223.52 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0dc235-9bfd-43a1-abd4-ad49e46c2369")
 	)
 	(wire
 		(pts
@@ -5734,7 +5756,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 162.56) (xy 212.09 162.56)
+			(xy 139.7 162.56) (xy 210.82 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5934,7 +5956,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 135.89) (xy 24.13 133.35)
+			(xy 27.94 133.35) (xy 27.94 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5961,16 +5983,6 @@
 			(type default)
 		)
 		(uuid "b465a6b1-1d5f-4e18-8086-485f37fa7fde")
-	)
-	(wire
-		(pts
-			(xy 212.09 157.48) (xy 223.52 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b49fe8ca-466d-4fa1-8dfa-6c5bc4b6f536")
 	)
 	(wire
 		(pts
@@ -6204,6 +6216,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 133.35) (xy 24.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a6c0db-9e06-47de-a919-d979ddec6644")
+	)
+	(wire
+		(pts
 			(xy 213.36 109.22) (xy 213.36 101.6)
 		)
 		(stroke
@@ -6231,16 +6253,6 @@
 			(type default)
 		)
 		(uuid "e65f5180-f3be-4951-8631-dcdd408dca45")
-	)
-	(wire
-		(pts
-			(xy 17.78 135.89) (xy 20.32 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb67e3af-2218-49c3-87f7-c1d87db742df")
 	)
 	(wire
 		(pts
@@ -6432,8 +6444,8 @@
 		)
 		(uuid "565cfd35-f45c-49d0-bad6-348e64eac128")
 	)
-	(label "USART2_TX"
-		(at 213.36 153.67 0)
+	(label "USART2_RX_BLE"
+		(at 210.82 157.48 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6472,6 +6484,16 @@
 		)
 		(uuid "5a77deb7-1e12-4ba3-807b-85ee841ef44e")
 	)
+	(label "USART2_RX_MCU"
+		(at 149.86 157.48 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "65503b1f-fb7f-485a-90d5-e8d631319b1d")
+	)
 	(label "VDD_3"
 		(at 73.66 39.37 90)
 		(effects
@@ -6481,6 +6503,16 @@
 			(justify left bottom)
 		)
 		(uuid "65e05d53-c957-48f2-9ea0-4e2e20c9fff2")
+	)
+	(label "USART2_TX_MCU"
+		(at 139.7 158.75 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "66eaa762-436d-49e9-bb00-502215e53224")
 	)
 	(label "VDDANA"
 		(at 121.92 39.37 90)
@@ -6532,8 +6564,8 @@
 		)
 		(uuid "99ea954b-40d0-4403-ab21-52e177b653f0")
 	)
-	(label "USART2_RX"
-		(at 213.36 157.48 0)
+	(label "USART2_TX_BLE"
+		(at 210.82 153.67 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6691,6 +6723,16 @@
 			(justify left bottom)
 		)
 		(uuid "d2bf0a07-d9bf-41ef-94c3-10855a4449ac")
+	)
+	(label "Power"
+		(at 71.12 180.34 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d538aabc-3260-4297-a1e9-43193c3fedb5")
 	)
 	(label "OSC_OUT"
 		(at 190.5 58.42 0)
@@ -7106,7 +7148,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 17.78 135.89 270)
+		(at 20.32 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7116,7 +7158,7 @@
 		(dnp no)
 		(uuid "4438ee4f-5e43-4cb3-b768-9ff4bcdabd5c")
 		(property "Reference" "#PWR045"
-			(at 11.43 135.89 0)
+			(at 13.97 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7127,7 +7169,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 18.542 138.938 90)
+			(at 21.082 136.398 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7138,7 +7180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 135.89 0)
+			(at 20.32 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7149,7 +7191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 135.89 0)
+			(at 20.32 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,7 +7202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 135.89 0)
+			(at 20.32 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8252,7 +8294,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 24.13 130.81 0)
+		(at 27.94 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8263,7 +8305,7 @@
 		(fields_autoplaced yes)
 		(uuid "6733a3a7-1581-496c-9494-40375af48041")
 		(property "Reference" "H1"
-			(at 26.67 128.2699 0)
+			(at 30.48 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8274,7 +8316,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 26.67 130.8099 0)
+			(at 30.48 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8284,8 +8326,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 24.13 130.81 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 27.94 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8296,7 +8338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 130.81 0)
+			(at 27.94 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8307,7 +8349,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 24.13 130.81 0)
+			(at 27.94 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8689,7 +8731,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 24.13 139.7 0)
+		(at 27.94 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8700,7 +8742,7 @@
 		(fields_autoplaced yes)
 		(uuid "757a828a-dd97-4934-bd01-2670eb5aa1e6")
 		(property "Reference" "H2"
-			(at 26.67 137.1599 0)
+			(at 30.48 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8711,7 +8753,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 26.67 139.6999 0)
+			(at 30.48 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8721,8 +8763,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 24.13 139.7 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8733,7 +8775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 139.7 0)
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8744,7 +8786,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 24.13 139.7 0)
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11120,7 +11162,7 @@
 			)
 		)
 		(pin "USART_RX_BLE" input
-			(at 223.52 153.67 180)
+			(at 223.52 157.48 180)
 			(uuid "7e616ff3-f81d-4ed2-a1e0-333cf9d87869")
 			(effects
 				(font
@@ -11130,7 +11172,7 @@
 			)
 		)
 		(pin "USART_TX_BLE" input
-			(at 223.52 157.48 180)
+			(at 223.52 153.67 180)
 			(uuid "c7761d54-3647-45a6-8cb5-e48d7fdbfbc0")
 			(effects
 				(font
