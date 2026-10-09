@@ -11,7 +11,7 @@
 		(comment 1 "Perrine Beurier")
 	)
 	(lib_symbols
-		(symbol "2026-10-02_16-03-03:5037630491"
+		(symbol "5037630491_6pins:5037630691"
 			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Value" "5037630491"
+			(property "Value" "5037630691"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -41,7 +41,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CONN_5037630000-SD_04_MOL"
+			(property "Footprint" "CONN_5037630000-SD_06_MOL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,7 +53,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5037630491?display=pdf"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5037630691?display=pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,7 +86,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "5037630491"
+			(property "ki_keywords" "5037630691"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "CONN_5037630000-SD_04_MOL"
+			(property "ki_fp_filters" "CONN_5037630000-SD_06_MOL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -108,10 +108,10 @@
 					)
 				)
 			)
-			(symbol "5037630491_1_1"
+			(symbol "5037630691_1_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
+						(xy 5.08 2.54) (xy 5.08 -15.24)
 					)
 					(stroke
 						(width 0.127)
@@ -123,7 +123,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
 					)
 					(stroke
 						(width 0.127)
@@ -279,6 +279,78 @@
 				)
 				(polyline
 					(pts
+						(xy 10.16 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 8.89 -9.3133)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 8.89 -11.0067)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -11.8533)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -13.5467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 12.7 2.54) (xy 5.08 2.54)
 					)
 					(stroke
@@ -291,7 +363,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
+						(xy 12.7 -15.24) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -373,11 +445,47 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(symbol "5037630491_1_2"
+			(symbol "5037630691_1_2"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
+						(xy 5.08 2.54) (xy 5.08 -15.24)
 					)
 					(stroke
 						(width 0.127)
@@ -389,7 +497,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
+						(xy 5.08 -15.24) (xy 12.7 -15.24)
 					)
 					(stroke
 						(width 0.127)
@@ -545,6 +653,78 @@
 				)
 				(polyline
 					(pts
+						(xy 7.62 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 8.89 -9.3133)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 8.89 -11.0067)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 8.89 -11.8533)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 8.89 -13.5467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 12.7 2.54) (xy 5.08 2.54)
 					)
 					(stroke
@@ -557,7 +737,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
+						(xy 12.7 -15.24) (xy 12.7 2.54)
 					)
 					(stroke
 						(width 0.127)
@@ -632,6 +812,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1153,7 +1369,7 @@
 		)
 	)
 	(rectangle
-		(start 17.78 29.21)
+		(start 17.78 20.32)
 		(end 41.91 50.8)
 		(stroke
 			(width 0)
@@ -1166,7 +1382,7 @@
 	)
 	(text "I2C connector \nwith the Bioamps"
 		(exclude_from_sim no)
-		(at 29.21 26.416 0)
+		(at 29.464 23.114 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1191,6 +1407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "377822a1-e669-4832-bf38-17e010a14995")
+	)
+	(junction
+		(at 40.64 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "881719b6-fb55-4361-a182-8311518dc373")
 	)
 	(junction
 		(at 64.77 41.91)
@@ -1265,6 +1487,26 @@
 			(type default)
 		)
 		(uuid "2784f108-d806-48af-927a-a044c94af0da")
+	)
+	(wire
+		(pts
+			(xy 40.64 34.29) (xy 38.1 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acaf508-e3b8-4e9c-94e0-f6d06c1aa746")
+	)
+	(wire
+		(pts
+			(xy 38.1 36.83) (xy 40.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eba113c-2866-4fb8-ac0f-dcb2dce5cde2")
 	)
 	(wire
 		(pts
@@ -1358,6 +1600,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 36.83) (xy 40.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a357ef2c-4e67-4b7e-b989-a2cb40c0012e")
+	)
+	(wire
+		(pts
 			(xy 86.36 40.64) (xy 90.17 40.64)
 		)
 		(stroke
@@ -1375,6 +1627,16 @@
 			(type default)
 		)
 		(uuid "cf73b00f-a275-48d4-bd9a-8284c9328182")
+	)
+	(wire
+		(pts
+			(xy 40.64 34.29) (xy 44.45 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b03184-3efd-4699-9e57-23b8a8c1bf02")
 	)
 	(wire
 		(pts
@@ -1461,6 +1723,100 @@
 		(uuid "e51fe183-d654-4d2e-bafc-7767695c4262")
 	)
 	(symbol
+		(lib_id "5037630491_6pins:5037630691")
+		(at 38.1 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a008859-2a10-4f0a-966c-946c58136877")
+		(property "Reference" "J5"
+			(at 29.21 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "5037630691"
+			(at 29.21 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:CONN_5037630000-SD_04_MOL"
+			(at 38.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5037630691?display=pdf"
+			(at 38.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "08c03c38-979d-4810-9a30-60bce9805880")
+		)
+		(pin "3"
+			(uuid "9fb40ab8-afb8-4496-bbbd-d3733a75f3e3")
+		)
+		(pin "2"
+			(uuid "12ec66ea-7df8-4cfe-9ff8-61703f16d5db")
+		)
+		(pin "5"
+			(uuid "f9564cbc-038c-4ca7-a1b3-e59df81051a4")
+		)
+		(pin "1"
+			(uuid "e1c3659c-ffdd-452b-a618-9f178d6cc50c")
+		)
+		(pin "6"
+			(uuid "354395fb-fddb-49e9-8082-ce6c5b4bac8c")
+		)
+		(instances
+			(project "DecodingBoard"
+				(path "/b438bce8-ca67-4245-91ae-f4475acc63f6/86726340-ab24-4796-8d45-b38aa2f19798"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 36.83 0)
 		(unit 1)
@@ -1543,8 +1899,8 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-10-02_16-03-03:5037630491")
-		(at 38.1 46.99 180)
+		(lib_id "power:GND")
+		(at 44.45 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1552,54 +1908,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94fd4e2a-ce6c-4c82-bb19-315aaea29933")
-		(property "Reference" "J6"
-			(at 29.21 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "5037630491"
-			(at 29.21 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:CONN_5037630000-SD_04_MOL"
-			(at 38.1 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5037630491?display=pdf"
-			(at 38.1 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 46.99 0)
+		(uuid "5e4963e5-ed43-4732-be57-b7cdce86c15d")
+		(property "Reference" "#PWR05"
+			(at 44.45 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1609,22 +1920,56 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "98a25f95-941e-4e41-87ba-9ad4b7f0d451")
+		(property "Value" "GND"
+			(at 44.45 37.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "4"
-			(uuid "432319e1-8619-4b63-a7f0-2e12e69f92e5")
+		(property "Footprint" ""
+			(at 44.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "0bc8852f-58d1-4cc6-9142-92926e4f7ecc")
-		)
-		(pin "2"
-			(uuid "9615bfa4-d4eb-4f5a-a8c7-0fa6c7db8d65")
+			(uuid "c2f8e660-f4a2-490a-8119-abf2f70d99d5")
 		)
 		(instances
 			(project "DecodingBoard"
 				(path "/b438bce8-ca67-4245-91ae-f4475acc63f6/86726340-ab24-4796-8d45-b38aa2f19798"
-					(reference "J6")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
